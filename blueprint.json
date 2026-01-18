@@ -4,11 +4,11 @@
     "php": "8.2",
     "wp": "latest"
   },
-  "steps": [
-    {
-      "step": "login",
-      "username": "admin",
-      "password": "password"
-    }
+  "features": {
+    "networking": true
+  },
+  "login": true,
+  "plugins": [
+    "https://raw.githubusercontent.com/arcwordpress/gateway-dev/main/gateway.zip"
   ]
 }
